@@ -28,4 +28,9 @@ function inputValidation() {
 	}
 }
 
-function atLeast
+function atLeastOneRadio() {
+	if (document.getElementById('male').checked == true || document.getElementById('female').checked == true) {
+		return true;
+	}
+	return false;
+}

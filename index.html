@@ -18,6 +18,43 @@
         <p>This web application takes a user's birthday and calculates the day of the week they <br><br>were born and then depending on their gender outputs their Akan Name.</p><br>
         <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given <br><br>their first name as a 'day name' which corresponds to the day in the week they <br><br>were born. Here are Ghanian day names.</p><br>
     </div>
+    <div class="header">
+        <h1>Akan Name</h1>
+        <div class="menue">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="scripts.js"></script>
+	<div class="body">
+		This application takes your birthday and calculates the day of the week you were born and then depending on your gender, will output your Akan Name. 
+    </d>
+    <div class="narative">
+		<p>Select your date of birth</p>
+		<form>
+			<input class="form" type="date" name="date_of_birth" id="dob">
+			<br>
+			<br>
+			<p>Please select your gender:</p>
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+			<br>
+			<button type="button" class="button" onclick="checkDayofWeek()">Submit</button>
+		</form>	
+	</div>
+    <div>
+		<p id="results"></p>
+	</div>
    
+    <script> src="main.js" </script>
 </body>
 </html>

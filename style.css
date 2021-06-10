@@ -3,4 +3,36 @@ body{
     text-align: center;
 }
 
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Lucida Console Courier, monospace;
 }
+
+ul{
+    list-style: none;
+}
+li a {
+    text-emphasis: bold;
+    text-decoration: none;
+    padding: 7%;
+    font-size: 30px;
+    font-family: Lucida Console Courier, monospace;
+    display: block;
+    margin: 2%;
+    
+}
+a:hover{
+    color: black;
+}
+.nav ul li a:hover{
+    color: black;
+    
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../pk.jpg"); width: 97%;
+    background-size: cover;
+    background
