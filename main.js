@@ -2,7 +2,6 @@ var days_of_week = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursd
 var male_names = new Array('Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame');
 var female_names = new Array('Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama');
 var akanName = '';
-
 function checkDayOfWeek(){
 	inputValidation();
 	dob = document.getElementById('dob').value;
@@ -18,6 +17,7 @@ function checkDayOfWeek(){
 	}
 	document.getElementById('results').innerHTML = "Your Akan name is: " + akanName;
 }
+
 
 function inputValidation() {
 	if (document.getElementById('dob').value == '') {
