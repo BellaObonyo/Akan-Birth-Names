@@ -1,0 +1,22 @@
+## Project name
+- Akan-Names
+​
+## Project description
+- Generate Akan names based on a user's birth day
+  
+​
+## Author(s) information
+-Obonyo Cynthia Bella.
+  
+## Setup instructions
+- Go to my repo at [repolink] (https://github.com/ObonyoCynthia)
+- Clone the repo;
+- cd to the project then go live
+​
+## BDD
+  As a user, I would like to;
+​
+  - See a  small description of what the application does on the landing page. 
+  - Enter my birthday through a form
+  - Choose what gender I am.
+  - Click the submisiion button.
