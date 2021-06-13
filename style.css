@@ -1,4 +1,13 @@
 body{
-    background-color: darkorchid;
+    background-color: #21094e;
     text-align: center;
+}
+.narrative{
+    font-family: serif;
+}
+.content{
+    color: white;
+}
+.body{
+    color: white;
 }
