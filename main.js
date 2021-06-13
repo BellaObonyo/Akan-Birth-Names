@@ -1,9 +1,9 @@
 var days_of_week = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
 var male_names = new Array('Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame');
 var female_names = new Array('Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama');
-var akanName = '';sss
+var akanName = '';
 
-function checkDayofWeek(){
+function checkDayOfWeek(){
 	inputValidation();
 	dob = document.getElementById('dob').value;
 	gender = document.querySelector('input[name="gender"]:checked').value;
