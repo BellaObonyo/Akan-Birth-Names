@@ -1,12 +1,14 @@
 body{
-    background-color: #21094e;
+    background-color: #0f1f3c;
     text-align: center;
+  
 }
 .narrative{
     font-family: serif;
 }
 .content{
     color: white;
+
 }
 .body{
     color: white;
@@ -14,4 +16,5 @@ body{
 .Akan{
     font-family: serif;
     font-style: inherit;
+    color: #f8532c;
 }
