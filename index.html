@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Birth Names</title>
 </head>
+
 <body>
-    <div class="content">
+    <container>
+        <div class="content">
         <div class="Akan">
             <h1>Akan Birth Names</h1>
         </div>
@@ -19,27 +21,28 @@
 	<div class="body">
 		The system takes in your birthday and calculates the day of the week you were born and <br><br>depending on your gender, it displays/outputs your Akan Name.<br><br>
         For this to work, one must select his/her birth day of the week,month and year he was<br><br> born the lastly seclect the gender and submit via submission button<br><br> which will prompt a feedback display of your Akan Name .<br><br>
-    </d>
+    </div>
     <div class="narative">
-		<p>Select Your Date of Birth</p>
+		<p style="color:#f8532c;">Select Your Date of Birth</p>
 		<form>
 			<input class="form" type="date" name="date_of_birth" id="dob">
 			<br>
 			<br>
 			<p style="color:#f8532c;">Select Your Gender:</p>
 			<input type="radio" id="male" name="gender" value="male">
-			<label for="male"d-flex p-3 bg>Female</label><br>
+			<label for="male"d-flex p-3 bg style="color:white ;">Female</label><br>
 			<input type="radio" id="female" name="gender" value="female">
-			<label for="female">Male</label><br>
+			<label for="female" style="color: white;">Male</label><br>
 			<br>
 			<button style="color:#f8532c ;" type="button" class="button" onclick="checkDayOfWeek()">Submit</button>
-            <button type="button" class="btn btn-outline-dark">Dark</button>
 
 		</form>	
 	</div>
     <div>
 		<p id="results"></p>
 	</div>
+</container>
+    
    
    <script src="main.js"></script>
 </body>
