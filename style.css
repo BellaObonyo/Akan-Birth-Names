@@ -6,12 +6,9 @@ body{
 .narrative{
     font-family: serif;
 }
-.content{
-    
 
-}
 hr{
-    border-style: dashed;
+    border-style: double;
 }
 
 .all{
