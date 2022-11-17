@@ -43,6 +43,13 @@ h2{
     border: 1px solid;
     border-radius: 4px;
 }
+p{
+    line-height: 1.5;
+    font-size: 13px;
+    margin: 20px 0 10px;
+
+
+}
 .Akan{
     color: white;
     text-align: center;
@@ -52,11 +59,31 @@ h2{
     border-radius: 4px;
 
 } 
+h4{
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    max-width: 30%;
+    max-height: 70%;
+    padding: 15px 20px;
+
+
+}
 button{
     border-style: solid #f8532c;
     border-radius: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
     height: 40px;
-    width: 30%px;
+    width: 20%;
+  
     
+}
+button.hover{
+    opacity: 0.9;
+    cursor: pointer;
+
 }
