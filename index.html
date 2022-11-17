@@ -5,45 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Birth Names</title>
+    <title>Akan Birth Names</title>
 </head>
 
 <body>
-    <container>
-        <div class="content">
-        <div class="Akan">
-            <h1>Akan Birth Names</h1>
+    <div class="all">
+        <container>
+            <div class="Akan">
+                <h1>Akan Birth Names</h1>
+            </div>
+            <h2>"Let's go to Ghana with Akan Birth Names"</h2>
+            <img src="./Images/yogurt.webp">
+            <div class="content">
+            <p>
+                Akan names are derived from Ghanian culture.In Ghana, children are given their 
+                first name as a "day name" which corresponds to the day of the week they were born.
+                This web application takes a user's Birth Day and calculates the day of the week the 
+                user was born, depending on your gender it outputs your Akan Name.
+
+                The user must select his/her birth day of the week,month and year he was   born the 
+                lastly seclect the gender and submit via submission button which  will thereafter display 
+                your Akan Name.
+            </p>
+        </div>
+        <div class="narative">
+            <p style="color:white;">Select Your Date of Birth</p>
+            <form>
+                <input class="form" type="date" name="date_of_birth" id="dob">
+                <br>
+                <br>
+                <p style="color:white;">Select Your Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male"d-flex p-3 bg style="color:indigo ;">Female 💃</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" style="color: indigo;">Male 🧍‍♂️</label><br>
+                <br>
+                <button style="color:#f8532c ;" type="button" class="button" onclick="checkDayOfWeek()">Submit</button>
+    
+            </form>	
         </div>
         <div>
+            <p id="results"></p>
         </div>
-        <p>This web application takes a user's birthday and calculates the day of the week they <br><br>were born and then depending on their gender outputs their Akan Name.<br><br>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given<br><br>their first name as a 'day name' which corresponds to the day in the week they.</p><br>
-    </div>
-	<div class="body">
-		The system takes in your birthday and calculates the day of the week you were born and <br><br>depending on your gender, it displays/outputs your Akan Name.<br><br>
-        For this to work, one must select his/her birth day of the week,month and year he was<br><br> born the lastly seclect the gender and submit via submission button<br><br> which will prompt a feedback display of your Akan Name .<br><br>
-    </div>
-    <div class="narative">
-		<p style="color:#f8532c;">Select Your Date of Birth</p>
-		<form>
-			<input class="form" type="date" name="date_of_birth" id="dob">
-			<br>
-			<br>
-			<p style="color:#f8532c;">Select Your Gender:</p>
-			<input type="radio" id="male" name="gender" value="male">
-			<label for="male"d-flex p-3 bg style="color:white ;">Female</label><br>
-			<input type="radio" id="female" name="gender" value="female">
-			<label for="female" style="color: white;">Male</label><br>
-			<br>
-			<button style="color:#f8532c ;" type="button" class="button" onclick="checkDayOfWeek()">Submit</button>
+    </container>
+        
+       
+       <script src="main.js"></script>
 
-		</form>	
-	</div>
-    <div>
-		<p id="results"></p>
-	</div>
-</container>
-    
+    </div>
    
-   <script src="main.js"></script>
 </body>
 </html>

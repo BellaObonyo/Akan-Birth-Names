@@ -1,5 +1,5 @@
 body{
-    background-color: #0f1f3c;
+    background-color: white;
     text-align: center;
     border-radius: 300px;
 }
@@ -7,15 +7,56 @@ body{
     font-family: serif;
 }
 .content{
-    color: white;
+    color: black;
 
 }
-.body{
-    color: white;
+
+.all{
+    box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    border-radius: 12px;
+    color: #fff;
+    width: 50%;
+    padding: 30px;
+    margin: 30px auto;
+    font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+} 
+
+.user{
+    display: block;
+    color: black;
+
+}
+h1{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 4px;
 }
 .Akan{
-    font-family: serif;
-    font-style: inherit;
-    color: #f8532c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 4px;
 
+} 
+button{
+    border-style: solid #f8532c;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 30%px;
+    
 }
